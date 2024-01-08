@@ -42,7 +42,7 @@ Handles time synchronization and provides utility functions for time management 
 - Showcases efficient use of the ESP32's hardware features for time-related functions.
 - Integrates with the RTC for maintaining time across power cycles.
 
-## CommandPlayer C# program which communicates with the ESP32
+## CommandPlayer (Program.cs) - C# program which communicates with the ESP32
 
 - Communicates over Bluetooth with ESP32, sending the commands and receiving responses.
 - Captures and presents the logging information from the Controller firmware processing the commands.
