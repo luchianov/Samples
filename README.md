@@ -6,7 +6,7 @@ This repository contains a collection of key components for an ESP32-based contr
 
 The entry point for the ESP32 firmware, setting up essential hardware and software components and entering the main loop where task checking and execution takes place.
 
-- Employs Bluetooth and/or Serial communication channel with the client.
+- Employs Bluetooth and/or Serial channel to communicate with the client.
 - Implements singleton pattern for efficient resource management.
 - Showcases integration of multiple system components and task scheduling.
 
@@ -55,5 +55,5 @@ The project is closed for contributions.
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE file for details.
+This code repo is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE file for details.
 
