@@ -21,7 +21,7 @@ Defines the `ScheduledTask` class, managing individual task schedules and execut
 
 Manages a collection of `ScheduledTask` instances, handling task addition, deletion, and execution based on Unix cron-style scheduling.
 
-- Simplifies complex cron scheduling to fit specific project requirements.
+- Relies upon standard Linux CRON scheduling specifications to fit specific project requirements.
 - Balances functionality and simplicity in design and implementation.
 - Employs dependency injection pattern to uncouple from the CommandProcessor.
 - Leverages persistent storage for schedule integrity across system restarts.
